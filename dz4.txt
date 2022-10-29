@@ -1,0 +1,24 @@
+class Mum:
+    height = 162
+    eyes = "Blue"
+    hair_color = "Black"
+    ability = "flexibility"
+
+class Dad:
+    height = 178
+    eyes = "Brown"
+    peculiarities = "Big eyes"
+    hair_color = "White"
+
+
+class Son(Dad, Mum):
+    pass
+
+Maxim = Son()
+
+print(f"Height: {Maxim.height}")
+print(f"Eyes: {Maxim.eyes}")
+print(f"Ability: {Maxim.ability}")
+print(f"Peculiarities: {Maxim.peculiarities}")
+print(f"Hair_color: {Maxim.hair_color}")
+

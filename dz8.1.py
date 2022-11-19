@@ -32,7 +32,7 @@ class Human:
         self.cat = cat
 
     def get_cat(self):
-        self.cat = Cat(name = "Dima")
+        self.cat = Cat(name = "Vasya")
 
     def get_home(self):
         self.home = House()
@@ -173,7 +173,7 @@ class Human:
         if self.satiety < 0:
             print("Dead…")
             return False
-        if self.money < -500:
+        if self.money < -400:
             print("Bankrupt…")
             return False
         if self.cat.cat_satiety < 0:
